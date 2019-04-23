@@ -47,10 +47,12 @@ class InputComp extends Component {
     this.props.submit(this.state.currentWord);
   }
 
+ 
+
   render() {
     return (
       <div className="inputComp">
-        <input placeholder="Type something..." onChange={this.updateWord}></input> 
+        <input placeholder="Enter your tag" onChange={this.updateWord}></input> 
         <button onClick={this.submitWord}>SUBMIT</button>
       </div>
     );

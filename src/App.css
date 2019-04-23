@@ -7,7 +7,7 @@
 .logo{
   width:30px;
   height:46px;
-  background-color: red;
+  background-color: rgb(102, 125, 175);
   display:inline-block;
   margin-right:30px;
 }
@@ -31,7 +31,7 @@
 .inputComp button{
   margin-top:40px;
   font-size: 2em;
-  background-color: red;
+  background-color:rgb(102, 125, 175);
 }
 
 /*DISPLAY COMPONENT*/
@@ -43,26 +43,26 @@
   max-width: 660px;
   margin: auto;
   margin-top:50px;
+  
 }
 
 .display .box{
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 100px;
   text-align: center;
-  background-color: red;
+  background-color:rgb(102, 125, 175);
   margin:10px;
-  padding-top: 85px;
+  padding-top: 45px;
   box-sizing: border-box;
 }
 
 .display .box p{
-  background-color: white;
-  padding: 0 6px;
-  margin-top: 100px;
+
   display: inline;
   font-weight: bold;
-  color: black;
-  font-size: 1.2em;
+  color:white;
+  text-align: center;
+  font-size: 1em;
 }
 
 
@@ -75,11 +75,15 @@
 }
 
 .inputComp{
-  outline: 1px lightgrey solid;
+  outline: 1px rgb(152, 198, 212) solid;
   outline-offset:-20px;
 }
 
 .display{
   outline: 1px lightgrey solid;
   outline-offset:30px;
+}
+
+.App{
+  background-color: white
 }
